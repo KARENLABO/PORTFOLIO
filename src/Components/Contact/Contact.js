@@ -3,7 +3,7 @@ import MiniNavBar from '../MiniNavBar/MiniNavBar';
 
 function Resume() {
     return (
-        <MiniNavBar/>
+        <MiniNavBar />
     );
 }
 

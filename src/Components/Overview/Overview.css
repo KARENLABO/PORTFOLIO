@@ -1,0 +1,21 @@
+.containerOverview{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) .5fr  ;
+    margin-top: 2%;
+    font-family: 'Dancing Script', cursive;
+    color: #67923d;
+    font-size: 50px;
+}
+
+.textElevatorSpeach{
+    grid-column: span 2;
+}
+
+.flowerRigth{
+    justify-self: right;
+    
+}
+
+.profilePhoto{
+    align-self: center;
+}

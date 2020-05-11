@@ -8,6 +8,7 @@
     grid-template-columns: repeat(5, 1fr);
     font-family: 'Amatic SC', cursive;
     justify-items: center;
+    align-items: center;
     text-align: center;
     font-size: 35px;
     font-weight: bold;
@@ -18,5 +19,13 @@
 }
 
 .miniNavBarOptOverview {
-    font-color: red;
+    color: red;
+}
+
+.imglogominiNav{
+    width: 70%;
+}
+
+.imglogominiNav:hover{
+    width: 68%;
 }
