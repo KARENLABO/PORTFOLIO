@@ -1,15 +1,13 @@
 import React from 'react';
-import Profile from './Components/Profile'
-import Footer from './Components/Footer'
-
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <Profile/>
-      <Footer/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <p> Hola </p>
+        </div >
+    );
 }
 
 export default App;
