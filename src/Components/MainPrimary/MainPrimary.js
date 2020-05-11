@@ -1,11 +1,11 @@
 import React from 'react';
 
 function MainPrimary() {
-    return(
+    return (
         <div>
-            <img alt='ProfilePhoto' src='https://avatars1.githubusercontent.com/u/56927449?s=460&u=c5ed73b31461d885ea253348676b9c0433b92e4d&v=4'/>
-            <h2>Ana Karen Ramirez</h2>
-            <p> Jr. front End Developer</p>
+            <img alt='ProfilePhoto' src='https://github.com/KARENLABO/PORTFOLIO/blob/master/src/img/LOGO%20KAREN%20GRANDE.png?raw=true' />
+            <img alt='flowersLeft' src='https://github.com/KARENLABO/PORTFOLIO/blob/master/src/img/FLORES%20LEFT.png?raw=true' />
+            <img alt='flowersRigth' src='https://github.com/KARENLABO/PORTFOLIO/blob/master/src/img/FLORES%20RIGTH.png?raw=true' />
         </div>
     )
 }
