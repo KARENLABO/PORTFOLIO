@@ -1,7 +1,39 @@
-.text {
-    text-align:center;
+.navHomePage{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    font-family: 'Amatic SC', cursive;
+    justify-items: center;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(112, 109, 105);
 }
-.greenBranch {
-    width:10%;
-    height:20%;
+
+#text{
+    margin: 0;
+}
+
+#overviewNav{
+    grid-column: 2/3;
+}
+
+.optionsNavbar:hover{
+    color: #ff5757;
+    font-size: 45px;
+}
+
+
+.greenBranch{
+    width: 130%;
+}
+.greenBranch:hover{
+    width: 128%;
+}
+
+@media screen and (min-width: 1800px) {
+    .navHomePage{
+        margin-top: 7%;
+        font-size: 50px;
+    }
 }
