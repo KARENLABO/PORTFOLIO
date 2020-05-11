@@ -1,4 +1,17 @@
 .principalHome{
-    display: flex;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+
+/* .logoprincipalHome{
+    padding-left: 10%;
+    padding-right: 10%;
+} */
+
+
+.principalHomeFlowersimg{
+    width: 400px;
+    height: 500px;
+    grid-column: span 1;
 }
