@@ -1,17 +1,26 @@
 .principalHome{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    margin: 0;
    
 }
 
-/* .logoprincipalHome{
-    padding-left: 10%;
-    padding-right: 10%;
-} */
+.logoprincipalHome{
+  grid-column: span 2;
+  z-index: 9;
+}
 
+.flowersLeft{
+    justify-self: left;
+}
+.flowersRigth{
+    margin-top: 10%;
+    justify-self: right;
+}
 
-.principalHomeFlowersimg{
-    width: 400px;
-    height: 500px;
-    grid-column: span 1;
+@media screen and (max-width: 1400px) {
+    .ProfilePhoto{
+        width: 400px;
+    }
 }
