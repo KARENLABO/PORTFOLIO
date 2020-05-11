@@ -4,18 +4,18 @@ import './NavBar.css';
 
 function NavBar() {
     return (
-        <div>
-            <div id='overviewNav'>
+        <div className='navHomePage'>
+            <div className='optionsNavbar' id='overviewNav'>
                 <p id='text'>Overview</p>
-                <img src={greenBranch} alt = "green branch" class='greenBranch'/>
+                <img src={greenBranch} alt="green branch" class='greenBranch' />
             </div>
-            <div id='resumeNav'>
+            <div className='optionsNavbar' id='resumeNav'>
                 <p id='text'>Resume</p>
-                <img src={greenBranch} alt = "green branch" class='greenBranch'/>
+                <img src={greenBranch} alt="green branch" class='greenBranch' />
             </div>
-            <div id='projectsNav'>
-                <p id='text'>Projects< /p>
-                <img src={greenBranch} alt = "green branch" class='greenBranch'/>
+            <div className='optionsNavbar' id='projectsNav'>
+                <p id='text'>Projects </p>
+                <img src={greenBranch} alt="green branch" class='greenBranch' />
             </div>
         </div>
     );
