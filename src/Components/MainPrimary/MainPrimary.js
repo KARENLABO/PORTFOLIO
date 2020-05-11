@@ -1,5 +1,5 @@
 import React from 'react';
-import './MainPrimary.css'
+import './MainPrimary.css';
 
 function MainPrimary() {
     return (
