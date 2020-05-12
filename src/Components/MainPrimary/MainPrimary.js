@@ -18,7 +18,7 @@ function MainPrimary() {
                 </div>
 
             </div>
-            <NavBar />
+            <NavBar/>
         </div>
     )
 }

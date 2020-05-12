@@ -19,7 +19,7 @@ function NavBar() {
 
             <div className='optionsNavbar' id='resumeNav'>
                 <Link className='linkOptionsNav' to='/Resume'>
-                    <p id='text'>Contact</p>
+                    <p id='text'>Resume</p>
                     <img src={greenBranch} alt="green branch" class='greenBranch' />
                 </Link>
             </div>

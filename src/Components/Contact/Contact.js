@@ -1,10 +1,11 @@
 import React from 'react';
-import MiniNavBar from '../MiniNavBar/MiniNavBar';
 
-function Resume() {
+function Contact() {
     return (
-        <MiniNavBar />
-    );
+        <div>
+            <p>Contact....XD </p>
+        </div>
+    )
 }
 
-export default Resume;
+export default Contact;
