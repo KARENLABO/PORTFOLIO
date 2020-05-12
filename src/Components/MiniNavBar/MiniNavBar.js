@@ -27,21 +27,21 @@ function MiniNavBar({ opt }) {
 
             <div className='miniNavBarOpt' id='overview'>
                 <Link className='linkOptionsNav' to='/OverView'>
-                    <p className={overviewOpt} id='text'>Overview</p>
+                    <p className={overviewOpt()} id='text'>Overview</p>
                     <img src={greenBranch} alt="green branch" class='greenBranch' />
                 </Link>
             </div>
 
             <div className='miniNavBarOpt' id='Contact'>
                 <Link className='linkOptionsNav' to='/Resume'>
-                    <p id='text'>Contact</p>
+                    <p className={resumeOpt()} id='text'>Resume</p>
                     <img src={greenBranch} alt="green branch" class='greenBranch' />
                 </Link>
             </div>
 
             <div className='miniNavBarOpt' id='projects'>
                 <Link className='linkOptionsNav' to='/Projects'>
-                    <p id='text'>Projects </p>
+                    <p className={projectsOpt()} id='text'>Projects </p>
                     <img src={greenBranch} alt="green branch" class='greenBranch' />
                 </Link>
             </div>

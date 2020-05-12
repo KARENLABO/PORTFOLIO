@@ -1,5 +1,6 @@
 import React from 'react';
 import MiniNavBar from '../MiniNavBar/MiniNavBar';
+import Contact from '../Contact/Contact';
 import './Overview.css'
 import { Link } from 'react-router-dom';
 
@@ -25,11 +26,8 @@ function Overview({ option }) {
                         <br></br>
                         <br></br>
                     </p>
-                    <Link className='linkOptionsNav' to='/Contact'>
-                        contact me...
-                    </Link>
-
-
+                    <p className='contactP'>contact me...</p>
+                    <Contact/>
                 </div>
                 <div className='flowerRigth'>
                     <img alt='flowerRigth' src='https://github.com/KARENLABO/PORTFOLIO/blob/master/src/img/FLORES%20RIGTH.png?raw=true' />

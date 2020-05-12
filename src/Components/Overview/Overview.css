@@ -4,9 +4,12 @@
     margin-top: 2%;
     font-family: 'Dancing Script', cursive;
     color: #67923d;
-    font-size: 50px;
+    font-size: 30px;
 }
 
+.contactP {
+    margin-bottom: 3%
+}
 .textElevatorSpeach{
     grid-column: span 2;
 }
