@@ -6,7 +6,9 @@
     text-align: center;
     font-size: 35px;
     font-weight: bold;
-   
+    margin: 0;
+    gap: 2em;
+    
 }
 
 #text{
@@ -21,6 +23,8 @@
 #overviewNav{
     grid-column: 2/3;
 }
+
+
 
 .linkOptionsNav:hover{
     color: #ffde59;
@@ -37,7 +41,24 @@
 
 @media screen and (min-width: 1800px) {
     .navHomePage{
-        margin-top: 7%;
+       
         font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #text{
+        font-size: 15px;
+    }
+    .greenBranch{
+        width: 100%;
+    }
+    .navHomePage{
+        grid-template-columns: repeat(3, 1fr);
+        gap: .5em;
+        
+    }
+    #projectsNav{
+        grid-row: 1/2;
     }
 }

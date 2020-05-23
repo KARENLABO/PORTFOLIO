@@ -1,32 +1,69 @@
 .principalHome{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    margin: 0;
+    height: 50%;
+    grid-gap: 1em;
    
 }
 
 .logoprincipalHome{
   grid-column: span 2;
+  grid-area: 2/3/1/2 ;
   z-index: 9;
 }
 
+
+
 .flowersLeft{
     justify-self: left;
+    
 }
 .flowersRigth{
-    margin-top: 10%;
+    grid-area: 3/4/1/2 ;
     justify-self: right;
+}
+
+.navbarhome{
+    grid-area: 2/2 ;
 }
 
 @media screen and (max-width: 1400px) {
     .ProfilePhoto{
-        width: 440px;
+        width: 420px;
     }
 }
 
 @media screen and (min-width: 1800px) {
     .ProfilePhoto{
-        width: 700px;
+        width: 690px;
     }
 }
+
+
+@media screen and (max-width: 400px) {
+    .ProfilePhoto{
+        width: 360px;
+    }
+    .logoprincipalHome{
+        grid-area: 2/2/2/2;
+    }
+    
+    .navbarhome{
+        grid-area: 1/2 ;
+        z-index: 9;
+        justify-self: center;
+    }
+    .principalHomeFlowersimg{
+        width: 80px;
+    }
+    .principalHome{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 2fr
+    }
+    .flowersRigth{
+        z-index: 0;
+    }
+
+}
+
