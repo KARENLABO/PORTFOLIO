@@ -2,7 +2,7 @@ import React from 'react';
 import MiniNavBar from '../MiniNavBar/MiniNavBar';
 import Contact from '../Contact/Contact';
 import './Overview.css'
-import { Link } from 'react-router-dom';
+
 
 
 function Overview({ option }) {
@@ -17,17 +17,22 @@ function Overview({ option }) {
 
                 <div className='textElevatorSpeach'>
                     <p>
-                        Hello EveryBody, I'm Ana Karen Ramirez Nuñez Billingual Front End developer and entrepreneurial and innovation development engineer. <br></br>
-                        <br></br>
-                        I develop functional and Pretty web pages to make easier your work, with this useful pages your sales will be increase and your customers will be more satisfied.
+                        Hello!
                         <br></br>
                         <br></br>
-                        If you are interested to know more about this.
+                        My name is Ana Karen Ramirez Nuñez I love to create functional and Beautiful websites. Developed by Figma, VS Code and coffee.
+                        <br></br>
+                        <br></br>
+                        I really love to bring ideas to life.
+                        <br></br>
+                        <br></br>
+
+                        Got any questions? Contact me ;).
                         <br></br>
                         <br></br>
                     </p>
-                    <p className='contactP'>contact me...</p>
-                    <Contact/>
+
+                    <Contact />
                 </div>
                 <div className='flowerRigth'>
                     <img alt='flowerRigth' src='https://github.com/KARENLABO/PORTFOLIO/blob/master/src/img/FLORES%20RIGTH.png?raw=true' />
