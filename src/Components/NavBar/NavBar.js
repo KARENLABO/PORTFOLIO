@@ -9,27 +9,28 @@ function NavBar() {
     return (
         <div className='navHomePage'>
 
-            <div className='optionsNavbar' id='overviewNav'>
+            <div className='overviewNav' id='overviewNav'>
                 <Link className='linkOptionsNav' to='/OverView'>
-                    <p id='text'>Overview</p>
+                    <p className='text' id='text'>Overview</p>
                     <img src={greenBranch} alt="green branch" class='greenBranch' />
                 </Link>
             </div>
 
 
-            <div className='optionsNavbar' id='resumeNav'>
+            <div className='resumeNav' id='resumeNav'>
                 <Link className='linkOptionsNav' to='/Resume'>
-                    <p id='text'>Resume</p>
+                    <p className='text'  id='text'>Resume</p>
                     <img src={greenBranch} alt="green branch" class='greenBranch' />
                 </Link>
             </div>
-            <div className='optionsNavbar' id='projectsNav'>
-                <Link className='linkOptionsNav' to='/Projects'>
-                    <p id='text'>Projects </p>
-                    <img src={greenBranch} alt="green branch" class='greenBranch' />
-                </Link>
 
+            <div className='projectsNav' id='projectsNav'>
+                <Link className='linkOptionsNav' to='/Projects'>
+                    <p className='text' id='text'>Projects </p>
+                    <img src={greenBranch} alt="green branch" class='greenBranch' />
+                </Link>
             </div>
+
         </div>
     );
 }

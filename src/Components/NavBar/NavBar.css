@@ -1,27 +1,51 @@
+/* en esta parte solo se acomoda para la parte la grilla  web*/
+
 .navHomePage{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    font-family: 'Amatic SC', cursive;
-    justify-items: center;
-    text-align: center;
-    font-size: 35px;
-    font-weight: bold;
-    margin: 0;
-    gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     
 }
 
-#text{
+.overviewNav{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    justify-self: center;
+    align-self: center;
+}
+.resumeNav{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+}
+.projectsNav{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+
+
+.navHomePage{
+    font-family: 'Amatic SC', cursive;
+    justify-items: center;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.text{
     margin: 0;
 }
 
 .linkOptionsNav{
     color: rgb(112, 109, 105);
     text-decoration:none;
-}
-
-#overviewNav{
-    grid-column: 2/3;
 }
 
 
@@ -41,24 +65,21 @@
 
 @media screen and (min-width: 1800px) {
     .navHomePage{
-       
         font-size: 50px;
     }
 }
 
 @media screen and (max-width: 400px) {
-    #text{
-        font-size: 15px;
+  
+    .navHomePage{
+        font-size: 20px;
+        align-items: center;
+        justify-items: center;
     }
     .greenBranch{
-        width: 100%;
+        width: 80%;
     }
-    .navHomePage{
-        grid-template-columns: repeat(3, 1fr);
-        gap: .5em;
-        
-    }
-    #projectsNav{
-        grid-row: 1/2;
+    .greenBranch:hover{
+        width: 90%;
     }
 }
