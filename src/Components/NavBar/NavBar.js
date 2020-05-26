@@ -5,7 +5,7 @@ import './NavBar.css';
 
 function NavBar() {
     const [option, setOption] = useState('Hola');
-    console.log(option);
+    console.log(option,setOption);
     return (
         <div className='navHomePage'>
 

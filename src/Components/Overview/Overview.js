@@ -2,7 +2,7 @@ import React from 'react';
 import MiniNavBar from '../MiniNavBar/MiniNavBar';
 import Contact from '../Contact/Contact';
 import './Overview.css'
-import { Link } from 'react-router-dom';
+
 
 
 function Overview({ option }) {
