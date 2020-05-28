@@ -19,16 +19,14 @@ function Overview({ option }) {
                 <div className='textElevatorSpeach'>
                     <br></br>
                     <p>
-                        Hello!
+                        <p className='helloelevator'>
+                          Hello!
+                        </p>
                         <br></br>
                         My name is Ana Karen Ramirez Nuñez, I love to create functional and Beautiful websites. Developed by Figma, VS Code and coffee.
                         <br></br>
                         <br></br>
-                        I really love to bring ideas to life.
-                        <br></br>
-                        <br></br>
-
-                        Got any questions? Contact me ;).
+                         Got any questions? Contact me ; )
                         <br></br>
                         <br></br>
                     </p>

@@ -5,7 +5,7 @@
 
 .optionMiniNavBar {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     font-family: 'Amatic SC', cursive;
     justify-items: center;
     align-items: center;
@@ -13,9 +13,13 @@
     font-size: 35px;
     font-weight: bold;
 }
+
 .linkOptionsNav:hover{
     color: rgba(236, 54, 197, 0.719);
     font-size: 38px;
+}
+.imglogominiNav{
+    width: 120px;
 }
 
 .miniNavBarOpt {
@@ -31,7 +35,7 @@
 }
 
 .miniNavBarOptProjects {
-    color: #ff5757);
+    color: #ff5757;
 }
 
 

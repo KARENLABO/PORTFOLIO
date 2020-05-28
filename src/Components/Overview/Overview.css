@@ -1,7 +1,8 @@
-/* en esta parte solo se acomoda para la parte de web*/
+/* en esta parte solo se acomoda para los estilos de la parte  web*/
 .containerOverview{
     display: grid;
-    grid-template-columns: repeat(3, 1fr) .5fr;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: 1.5fr .5fr;
     font-family: 'Quicksand', sans-serif;
     color:#545454 ;
    
@@ -10,9 +11,36 @@
 .profilePhoto{
     align-self: center;
     justify-self: center;
+    width: 95%;
+}
+.helloelevator{
+    font-size: 4rem;
+}
+
+.textElevatorSpeach{
+    font-size: 3rem;
+    padding-right: 12%;
 }
 
 
+
+
+/* POSICIONAMIENTO SOLO DE LOS ELEMENTOS EN LA GRILLA*/
+.divProfilePhoto{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.textElevatorSpeach{
+    text-align: justify;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.contactmeSocialNetworks{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
 
 
 
@@ -38,7 +66,30 @@
         padding-left: 10%;
         padding-right: 7%;
     }
+    .textElevatorSpeach{
+        font-size: 17px;
+    }
+    
+    .helloelevator{
+        font-size: 30px;
+    }
     .contactmeSocialNetworks{
+        grid-row: 3/4;
+    }
+   /* POSICIONAMIENTO DE LOS ELEMENTOS EN GRILLA MOVILE*/ 
+    .divProfilePhoto{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    
+    .textElevatorSpeach{
+        text-align: justify;
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    
+    .contactmeSocialNetworks{
+        grid-column: 1/3;
         grid-row: 3/4;
     }
 
