@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    
+    gap: 2em;
 }
 
 .overviewNav{
@@ -14,7 +14,7 @@
     align-self: center;
 }
 .resumeNav{
-    grid-row: 2/3;
+    grid-row: 1/2;
     grid-column: 2/3;
     justify-self: center;
     align-self: center;
@@ -70,16 +70,41 @@
 }
 
 @media screen and (max-width: 400px) {
-  
     .navHomePage{
-        font-size: 20px;
+        gap: 0;
+    }
+
+    .overviewNav{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        justify-self: center;
+        align-self: center;
+    }
+    .resumeNav{
+        grid-row: 2/3;
+        grid-column: 2/3;
+        justify-self: center;
+        align-self: center;
+        margin-top: 15%;
+    }
+    .projectsNav{
+        grid-row: 1/2;
+        grid-column: 3/4;
+        justify-self: center;
+        align-self: center;
+    }
+    .navHomePage{
+        font-size: 30px;
         align-items: center;
         justify-items: center;
     }
+    .text{
+        margin-left: 24%;
+    }
     .greenBranch{
-        width: 80%;
+        width: 150%;
     }
     .greenBranch:hover{
-        width: 90%;
+        width: 165%;
     }
 }

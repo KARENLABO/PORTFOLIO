@@ -1,24 +1,45 @@
+/* en esta parte solo se acomoda para la parte de web*/
 .containerOverview{
     display: grid;
-    grid-template-columns: repeat(3, 1fr) .5fr  ;
-    margin-top: 2%;
-    font-family: 'Dancing Script', cursive;
-    color: #67923d;
-    font-size: 30px;
-}
+    grid-template-columns: repeat(3, 1fr) .5fr;
+    font-family: 'Quicksand', sans-serif;
+    color:#545454 ;
+   
 
-.contactP {
-    margin-bottom: 3%
 }
-.textElevatorSpeach{
-    grid-column: span 2;
-}
-
-.flowerRigth{
-    justify-self: right;
-    
-}
-
 .profilePhoto{
     align-self: center;
+    justify-self: center;
+}
+
+
+
+
+
+/* en esta parte solo se acomoda el lugar de los elementos en la grilla para la parte movile*/
+
+@media screen and (max-width: 400px) {
+    .containerOverview{
+        grid-template-rows: 1.5fr  1fr .8fr ;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        font-weight: bolder;
+        
+    }
+    .profilePhoto{
+        width: 300px;
+        align-self: center;
+        justify-self: center;
+        grid-row: 1/2;
+    }
+    .textElevatorSpeach{
+        grid-row: 2/3;
+        padding-left: 10%;
+        padding-right: 7%;
+    }
+    .contactmeSocialNetworks{
+        grid-row: 3/4;
+    }
+
 }
