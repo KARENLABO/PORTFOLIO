@@ -1,6 +1,7 @@
 import React from 'react';
 import MiniNavBar from '../MiniNavBar/MiniNavBar';
 import Contact from '../Contact/Contact';
+import OverviewPhoto from '../../img/overview photo.png'
 import './Overview.css'
 
 
@@ -11,16 +12,16 @@ function Overview({ option }) {
         <div>
             <MiniNavBar opt={option} />
             <div className='containerOverview'>
-                <div className='profilePhoto'>
-                    <img alt='profilePhoto' src='https://github.com/KARENLABO/PORTFOLIO/blob/master/src/img/overview%20photo.png?raw=true' />
+                <div className='divProfilePhoto'>
+                    <img className='profilePhoto' alt='profilePhoto' src={OverviewPhoto} />
                 </div>
 
                 <div className='textElevatorSpeach'>
+                    <br></br>
                     <p>
                         Hello!
                         <br></br>
-                        <br></br>
-                        My name is Ana Karen Ramirez Nuñez I love to create functional and Beautiful websites. Developed by Figma, VS Code and coffee.
+                        My name is Ana Karen Ramirez Nuñez, I love to create functional and Beautiful websites. Developed by Figma, VS Code and coffee.
                         <br></br>
                         <br></br>
                         I really love to bring ideas to life.
@@ -31,11 +32,9 @@ function Overview({ option }) {
                         <br></br>
                         <br></br>
                     </p>
-
-                    <Contact />
                 </div>
-                <div className='flowerRigth'>
-                    <img alt='flowerRigth' src='https://github.com/KARENLABO/PORTFOLIO/blob/master/src/img/FLORES%20RIGTH.png?raw=true' />
+                <div className='contactmeSocialNetworks'>
+                    <Contact />
                 </div>
             </div>
         </div>

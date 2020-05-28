@@ -1,29 +1,32 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import './MainPrimary.css';
+import LogoGrande from '../../img/LOGO GRANDE .png';
+import flowersLeft from '../../img/flores left.png';
+import flowersRigth from '../../img/FLORES RIGTH.png';
 
 
 function MainPrimary() {
     return (
-            <div className='principalHome'>
-              
-                <div className='logoprincipalHome'>
-                    <img alt='ProfilePhoto' className='ProfilePhoto' src='https://github.com/KARENLABO/PORTFOLIO/blob/master/src/img/LOGO%20GRANDE%20.png?raw=true' />
-                </div>
+        <div className='principalHome'>
 
-                <div className='navbarhome'> 
-                    <NavBar/>
-                </div>
-
-                <div className='flowersLeft'  >
-                    <img className='principalHomeFlowersimg' alt='flowersLeft' src='https://github.com/KARENLABO/PORTFOLIO/blob/master/src/img/FLORES%20LEFT.png?raw=true' />
-                </div>
-                
-                <div className='flowersRigth' >
-                     <img className='principalHomeFlowersimg' alt='flowersRigth' src='https://github.com/KARENLABO/PORTFOLIO/blob/master/src/img/FLORES%20RIGTH.png?raw=true' />
-                </div>
+            <div className='logoprincipalHome'>
+                <img alt='ProfilePhoto' className='ProfilePhoto' src={LogoGrande} />
             </div>
-        
+
+            <div className='navbarhome'>
+                <NavBar />
+            </div>
+
+            <div className='flowersLeft'  >
+                <img className='principalHomeFlowersimg' alt='flowersLeft' src={flowersLeft} />
+            </div>
+
+            <div className='flowersRigth' >
+                <img className='principalHomeFlowersimg' alt='flowersRigth' src={flowersRigth} />
+            </div>
+        </div>
+
     )
 }
 
