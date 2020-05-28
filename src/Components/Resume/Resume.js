@@ -3,7 +3,9 @@ import MiniNavBar from '../MiniNavBar/MiniNavBar';
 
 function Resume({ option }) {
     return (
-        <MiniNavBar opt={option} />
+        <div>
+            <MiniNavBar opt={option}/>
+        </div>
     );
 }
 
