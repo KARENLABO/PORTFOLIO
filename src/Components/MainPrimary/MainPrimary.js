@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import './MainPrimary.css';
-import LogoGrande from '../../img/LOGO GRANDE.png';
+import LogoGrande from '../../img/LOGO GRANDE .png';
 import flowersLeft from '../../img/FLORES LEFT.png';
 import flowersRigth from '../../img/FLORES RIGTH.png';
 
