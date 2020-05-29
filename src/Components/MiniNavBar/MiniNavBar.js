@@ -28,7 +28,7 @@ function MiniNavBar({ opt }) {
             <div className='miniNavBarOpt' id='overview'>
                 <Link className='linkOptionsNav' to='/OverView'>
                     <p className={overviewOpt()} id='text'>Overview</p>
-                    <img src={greenBranch} alt="green branch" class='greenBranch' />
+                    <img src={greenBranch} alt="green branch" className='greenBranch' />
                 </Link>
             </div>
 
