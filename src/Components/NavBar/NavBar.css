@@ -41,6 +41,8 @@
 
 .text{
     margin: 0;
+    text-shadow: 2px 2px 4px rgb(167, 163, 163);
+    text-align: center;
 }
 
 .linkOptionsNav{
@@ -101,10 +103,8 @@
     .text{
         margin-left: 24%;
     }
-    .greenBranch{
-        width: 150%;
-    }
+  
     .greenBranch:hover{
-        width: 165%;
+        width: 50%;
     }
 }

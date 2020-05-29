@@ -20,13 +20,15 @@ function Overview({ option }) {
                     <br></br>
                     <p>
                         <p className='helloelevator'>
-                          Hello!
+                            Hello!
                         </p>
                         <br></br>
                         My name is Ana Karen Ramirez Nuñez, I love to create functional and Beautiful websites. Developed by Figma, VS Code and coffee.
                         <br></br>
                         <br></br>
-                         Got any questions? Contact me ; )
+                        <p className='aniqestionsText'>
+                            Got any questions? Contact me ; )
+                         </p>
                         <br></br>
                         <br></br>
                     </p>

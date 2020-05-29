@@ -8,8 +8,8 @@ import PDFJs from '../Backends/PDFJs/PDFJs';
 function Resume({ option }) {
     return (
         <div className='OverviewPage'>
-            <MiniNavBar opt={option}/>
-            <PDFViewer 
+            <MiniNavBar opt={option} />
+            <PDFViewer
                 backend={PDFJs}
                 src={resume}
                 className='OverviewPage'
