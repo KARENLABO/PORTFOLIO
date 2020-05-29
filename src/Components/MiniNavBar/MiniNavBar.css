@@ -55,4 +55,8 @@
         color: rgba(236, 54, 197, 0.719);
         font-size: 22px;
     }
+
+    .greenBranch{
+        width: 110%;
+    }
 }

@@ -35,14 +35,14 @@ function MiniNavBar({ opt }) {
             <div className='miniNavBarOpt' id='Contact'>
                 <Link className='linkOptionsNav' to='/Resume'>
                     <p className={resumeOpt()} id='text'>Resume</p>
-                    <img src={greenBranch} alt="green branch" class='greenBranch' />
+                    <img src={greenBranch} alt="green branch" className='greenBranch' />
                 </Link>
             </div>
 
             <div className='miniNavBarOpt' id='projects'>
                 <Link className='linkOptionsNav' to='/Projects'>
                     <p className={projectsOpt()} id='text'>Projects </p>
-                    <img src={greenBranch} alt="green branch" class='greenBranch' />
+                    <img src={greenBranch} alt="green branch" className='greenBranch' />
                 </Link>
             </div>
         </div>
