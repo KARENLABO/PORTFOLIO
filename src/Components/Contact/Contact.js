@@ -21,11 +21,12 @@ function Contact() {
                     <img src={GitHub} className="gitHubIcon" alt="GitHubLogo" />
                 </div>
             </a>
-            <div className='emaildiv'>
+            <a href="mailto:karenRamirez9428@hotmail.com?Subject=Job%20Opportunity" className='emaildiv'>
                 <div className='Outlookicon'>
                     <img src={Email} className="OutlookIcon" alt="OutlookLogo" />
                 </div>
-            </div>
+            </a>
+
             <div className='phonediv'>
                 <div className='phoneNumbericon'>
                     <img src={Phone} className="PhoneIcon" alt="PhoneLogo" />

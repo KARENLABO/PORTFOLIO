@@ -1,6 +1,8 @@
 .linkOptionsNav{
     color: rgb(112, 109, 105);
     text-decoration:none;
+    text-shadow: 2px 2px 4px rgb(167, 163, 163);
+    text-align: center;
 }
 
 .optionMiniNavBar {
@@ -10,7 +12,7 @@
     justify-items: center;
     align-items: center;
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -22,9 +24,6 @@
     width: 120px;
 }
 
-.miniNavBarOpt {
-    width: 50%;
-}
 
 .miniNavBarOptOverview {
     color: #ff5757 ;
@@ -43,7 +42,7 @@
 
 @media screen and (max-width: 400px) {
     .imglogominiNav{
-        width: 80px;
+        width: 90px;
     }
     
     .optionMiniNavBar {
