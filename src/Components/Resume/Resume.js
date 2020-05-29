@@ -1,19 +1,18 @@
 import React from 'react';
 import MiniNavBar from '../MiniNavBar/MiniNavBar';
 import './Resume.css';
-import resume2 from '../../pdf/resume.pdf';
-import PDFViewer from 'pdf-viewer-reactjs'
+import resume from '../../pdf/resume.pdf';
+import PDFViewer from '../PDFViewer/PDFViewer'
+import PDFJs from '../Backends/PDFJs/PDFJs';
 
 function Resume({ option }) {
     return (
         <div>
             <MiniNavBar opt={option}/>
-            <PDFViewer
-                document={{
-                    url: 'https://arxiv.org/pdf/quant-ph/0410100.pdf',
-                }}
+            <PDFViewer 
+                backend={PDFJs}
+                src={resume}
             />
-            
         </div>
     );
 }
