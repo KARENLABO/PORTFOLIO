@@ -2,7 +2,7 @@
 .containerOverview{
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 0.2fr;
     font-family: 'Patrick Hand', cursive;
     color:#344253 ;
    
@@ -11,16 +11,16 @@
 .profilePhoto{
     align-self: center;
     justify-self: center;
-    width: 500px;
+    width: 450px;
 }
 .helloelevator{
-    font-size: 4rem;
+    font-size: 50px;
     font-family: 'Lobster Two', cursive;
     color: #b379b6
 }
 
 .textElevatorSpeach{
-    font-size: 3rem;
+    font-size: 2.5em;
     padding-right: 7%;
     padding-left: 7%;
   

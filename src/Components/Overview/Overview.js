@@ -25,12 +25,12 @@ function Overview({ option }) {
                         
                         My name is Ana Karen Ramirez Nuñez, I love to create functional and Beautiful websites. Developed by Figma, VS Code and coffee.
                         <br></br>
+                        
                        
                         <p className='aniqestionsText'>
                             Got any questions? Contact me at :
                          </p>
-                        <br></br>
-                        <br></br>
+
                     </div>
                 </div>
                 <div className='contactmeSocialNetworks'>
