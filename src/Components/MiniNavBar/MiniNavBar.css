@@ -1,5 +1,5 @@
 .linkOptionsNav{
-    color: rgb(112, 109, 105);
+    color: #828dc2  ;
     text-decoration:none;
     text-shadow: 2px 2px 4px rgb(167, 163, 163);
     text-align: center;
@@ -21,20 +21,20 @@
     font-size: 38px;
 }
 .imglogominiNav{
-    width: 120px;
+    width: 150px;
 }
 
 
 .miniNavBarOptOverview {
-    color: #ff5757 ;
+    color: #ae369a ;
 }
 
 .miniNavBarOptResume {
-    color: #ff5757;
+    color: #ae369a;
 }
 
 .miniNavBarOptProjects {
-    color: #ff5757;
+    color: #ae369a;
 }
 
 

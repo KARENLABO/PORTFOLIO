@@ -2,8 +2,8 @@
 /* en esta parte solo se acomoda para la parte de web*/
 .generalContact {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+   
     font-family: 'Amatic SC', cursive;
     justify-items: center;
     text-align: center;
@@ -36,21 +36,21 @@
 /* MARGIN DE LA IMAGEN PARA QUE QUEDEN JUNTAS */
 .linkedindiv {
     grid-column: 1/2;
-    grid-row: 2/3;
+ 
 }
 
 .githubdiv {
-    grid-row: 2/3;
+    
     grid-column: 3/4;
 }
 
 .emaildiv {
     grid-column: 2/3;
-    grid-row: 2/3;
+    
 }
 
 .phonediv {
-    grid-row: 2/3;
+ 
     grid-column: 4/5;
 }
 

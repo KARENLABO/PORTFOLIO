@@ -3,7 +3,6 @@ import './Contact.css';
 import LinkedIn from '../../img/linkedin.png';
 import GitHub from '../../img/github.png';
 import Email from '../../img/email.png';
-import Phone from '../../img/phone.png';
 
 
 function Contact() {
@@ -27,11 +26,7 @@ function Contact() {
                 </div>
             </a>
 
-            <div className='phonediv'>
-                <div className='phoneNumbericon'>
-                    <img src={Phone} className="PhoneIcon" alt="PhoneLogo" />
-                </div>
-            </div>
+
         </div>
     )
 }

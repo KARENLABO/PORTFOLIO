@@ -12,7 +12,7 @@ function NavBar() {
             <div className='overviewNav' id='overviewNav'>
                 <Link className='linkOptionsNav' to='/OverView'>
                     <p className='text' id='text'>Overview</p>
-                    <img src={greenBranch} alt="green branch" class='greenBranch' />
+                    <img src={greenBranch} alt="green branch" className='greenBranch' />
                 </Link>
             </div>
 
