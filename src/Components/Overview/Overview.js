@@ -22,11 +22,11 @@ function Overview({ option }) {
                         <p className='helloelevator'>
                             Hello!
                         </p>
-                        
-                        My name is Ana Karen Ramirez Nuñez, I love to create functional and Beautiful websites. Developed by Figma, VS Code and coffee.
+
+                        My name is Ana Karen Ramirez Nuñez, I love to create functional and Beautiful websites. Developed by using  Figma, VS Code and coffee.
                         <br></br>
-                        
-                       
+
+
                         <p className='aniqestionsText'>
                             Got any questions? Contact me at :
                          </p>

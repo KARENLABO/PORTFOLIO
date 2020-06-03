@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import greenBranch from '../../img/RAMA VERDE2.png';
+import ImgLogoMinibar from '../../img/LOGO KAREN PEQUENO.png';
 import './MiniNavBar.css';
 
 function MiniNavBar({ opt }) {
@@ -21,7 +22,7 @@ function MiniNavBar({ opt }) {
         <div className='optionMiniNavBar'>
             <div className='miniNavBarOpt' id='logo'>
                 <Link className='linkOptionsNav' to='/'>
-                    <img className='imglogominiNav' src='https://github.com/KARENLABO/PORTFOLIO/blob/master/src/img/LOGO%20GRANDE%20.png?raw=true' alt="green branch" />
+                    <img className='imglogominiNav' src={ImgLogoMinibar} alt="green branch" />
                 </Link>
             </div>
 

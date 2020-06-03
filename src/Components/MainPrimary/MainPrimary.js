@@ -1,8 +1,8 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import './MainPrimary.css';
-import LogoGrande from '../../img/LOGO GRANDE .png';
-import flowersLeft from '../../img/FLORES LEFT.png';
+import LogoGrande from '../../img/LOGO GRANDE.png';
+import flowers from '../../img/flores desing.png';
 import flowersRigth from '../../img/FLORES RIGTH.png';
 
 
@@ -18,13 +18,7 @@ function MainPrimary() {
                 <NavBar />
             </div>
 
-            <div className='flowersLeft'  >
-                <img className='principalHomeFlowersimg' alt='flowersLeft' src={flowersLeft} />
-            </div>
 
-            <div className='flowersRigth' >
-                <img className='principalHomeFlowersimg' alt='flowersRigth' src={flowersRigth} />
-            </div>
         </div>
 
     )

@@ -3,6 +3,7 @@
     text-decoration:none;
     text-shadow: 2px 2px 4px rgb(167, 163, 163);
     text-align: center;
+    margin:0;
 }
 
 .optionMiniNavBar {
@@ -14,27 +15,35 @@
     text-align: center;
     font-size: 45px;
     font-weight: bold;
+    
 }
 
 .linkOptionsNav:hover{
     color: rgba(236, 54, 197, 0.719);
     font-size: 38px;
+
 }
 .imglogominiNav{
-    width: 150px;
+    width: 40%;
 }
 
 
 .miniNavBarOptOverview {
     color: #ae369a ;
+    margin:0;
+}
+#text{
+    margin:0;
 }
 
 .miniNavBarOptResume {
     color: #ae369a;
+    margin:0;
 }
 
 .miniNavBarOptProjects {
     color: #ae369a;
+    margin:0;
 }
 
 

@@ -3,8 +3,8 @@
 .navHomePage{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 2em;
+    grid-column-gap: 1em;
+   
 }
 
 .overviewNav{
@@ -26,10 +26,6 @@
     align-self: center;
 }
 
-
-
-
-
 .navHomePage{
     font-family: 'Amatic SC', cursive;
     justify-items: center;
@@ -42,19 +38,20 @@
 .text{
     margin: 0;
     text-shadow: 2px 2px 4px rgb(167, 163, 163);
+    color: #ae369a;
     text-align: center;
 }
 
 .linkOptionsNav{
-    color: #af7bbd;
+    color: #ae369a;
     text-decoration:none;
 }
 
 
 
-.linkOptionsNav:hover{
-    color: #ffde59;
-    font-size: 45px;
+.text:hover{
+  
+    font-size: 44px;
 }
 
 
