@@ -7,13 +7,14 @@
 }
 
 .optionMiniNavBar {
+padding-top: 2%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     font-family: 'Amatic SC', cursive;
     justify-items: center;
     align-items: center;
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     
 }
@@ -24,7 +25,7 @@
 
 }
 .imglogominiNav{
-    width: 40%;
+    width: 35%;
 }
 
 
@@ -51,22 +52,19 @@
 
 @media screen and (max-width: 400px) {
     .imglogominiNav{
-        width: 90px;
+        width: 50px;
     }
     
     .optionMiniNavBar {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        text-align: center;
         font-size: 20px;
-    
     }
+
     .linkOptionsNav:hover{
         color: rgba(236, 54, 197, 0.719);
         font-size: 22px;
     }
 
     .greenBranch{
-        width: 110%;
+        width: 105%;
     }
 }

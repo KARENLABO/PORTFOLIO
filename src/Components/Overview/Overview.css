@@ -11,29 +11,41 @@
 .profilePhoto{
     align-self: center;
     justify-self: center;
-    width: 450px;
+    width: 83%;
 }
+
 .helloelevator{
-    font-size: 50px;
-    font-family: 'Lobster Two', cursive;
-    color: #b379b6
+    font-size: 45px;
+    font-family: 'Amatic SC', cursive;
+    color: #b379b6;
+    margin:0;
+    margin-bottom: 3%;
+    font-weight: bold;
 }
 
 .textElevatorSpeach{
-    font-size: 2.5em;
+    font-size: 30px;
     padding-right: 7%;
     padding-left: 7%;
   
 }
 
-.aniqestionsText{
-    color: #af7bbd;
-  
-    
+
+.contactinfo p{
+    text-align: center;
+    margin: 0;
+ 
 }
 
-
-
+.aniqestionsText{
+    color: #af7bbd;
+    margin-top: 3%;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;  
+    font-family: 'Amatic SC', cursive;
+    
+}
 
 /* POSICIONAMIENTO SOLO DE LOS ELEMENTOS EN LA GRILLA*/
 .divProfilePhoto{
@@ -58,7 +70,7 @@
 
 @media screen and (max-width: 400px) {
     .containerOverview{
-        grid-template-rows: 1fr .7fr  .8fr  ;
+        grid-template-rows: .7fr .7fr  .8fr  ;
         grid-template-columns: 1fr;
         align-items: center;
         justify-items: center;
@@ -66,7 +78,8 @@
         
     }
     .profilePhoto{
-        width: 300px;
+        padding-top: 5%;
+        width: 230px;
         align-self: center;
         justify-self: center;
         grid-row: 1/2;

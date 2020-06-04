@@ -2,7 +2,6 @@
 
 /* en esta parte solo se acomoda para la parte de web*/
 .principalHome{
-
     background: url(../../img/Background\ Main\ page.png) no-repeat;
     background-size: cover;
 }
@@ -15,7 +14,7 @@
 }
 
 .ProfilePhoto{
-    margin-top: 20%;
+    margin-top: 10%;
     width:70%;
 }
 
@@ -47,12 +46,14 @@
 @media screen and (max-width: 400px) {
     .ProfilePhoto{
         width:250px;
+        
     }
+    .principalHome{
 
-    .principalHomeFlowersimg{
-        width: 105px;
-   
+        background: url(../../img/backgroundMovile.png) no-repeat;
+        background-size: cover;
     }
+ 
 
     .principalHome{
         display: grid;
