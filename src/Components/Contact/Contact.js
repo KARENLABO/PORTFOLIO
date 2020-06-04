@@ -9,18 +9,18 @@ function Contact() {
     return (
         <div className='generalContact'>
 
-            <a href='https://www.linkedin.com/in/akarenramirez/' className='linkedindiv'>
+            <a target="_blank" href='https://www.linkedin.com/in/akarenramirez/' className='linkedindiv'>
                 <div className='LinkedInIcon'>
                     <img src={LinkedIn} className="linkedinIcon" alt="LinkedInLogo" />
                 </div>
             </a>
 
-            <a href='https://github.com/KARENLABO' className='githubdiv'>
+            <a target="_blank" href='https://github.com/KARENLABO' className='githubdiv'>
                 <div className='icon'>
                     <img src={GitHub} className="gitHubIcon" alt="GitHubLogo" />
                 </div>
             </a>
-            <a href="mailto:karenRamirez9428@hotmail.com?Subject=Job%20Opportunity" className='emaildiv'>
+            <a target="_blank" href="mailto:karenRamirez9428@hotmail.com?Subject=Job%20Opportunity" className='emaildiv'>
                 <div className='Outlookicon'>
                     <img src={Email} className="OutlookIcon" alt="OutlookLogo" />
                 </div>

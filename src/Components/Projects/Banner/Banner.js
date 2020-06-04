@@ -1,80 +1,59 @@
-import React, { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel'
+import React from 'react';
 import MovieChallenge from '../../../img/Movie challenge project.png'
 import Cipher from '../../../img/chiper project.jpeg'
 import DataLovers from '../../../img/Data lovers project.jpeg'
 import LabNotes from '../../../img/LAB NOTES PROJECT.jpeg'
-import '../Banner/Banner.css'  
+import '../Banner/Banner.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Cards from './Cards'
+import CardColumns from 'react-bootstrap/CardColumns'
+import CardDeck from 'react-bootstrap/CardDeck'
+
+const Projects = [
+  {
+    project: 'Lab Notes',
+    imge: LabNotes,
+    date: 'Laboratoria-2020-04',
+    description: 'Taking good notes greatly facilitates study and decisively helps understanding. For this reason, we created Lab Notes, so that you can have secure notes that only you can access and that you dont miss any details of the things that interest you.',
+    technologies: 'React, Firebase, Firebase Hosting, JavaScript, ReactStrap, Css',
+    linkGitHub: 'https://github.com/KARENLABO/GDL004-lab-notes/tree/develop',
+    linkDeploy: 'https://lab-notes-df536.firebaseapp.com',
+  },
+  {
+    project: 'Data Lovers',
+    imge: DataLovers,
+    date: 'Laboratoria-2019-12',
+    description: 'The wonderful world of Harry Potter is a gamification project thought and created to bring together the basics of the story to present to anyone who is completely unfamiliar with the subject and may have a general idea.',
+    technologies: ' JavaScript, HTML, Css',
+    linkGitHub: 'https://github.com/KARENLABO/GDL004-data-lovers',
+    linkDeploy: 'https://lujanworld.github.io/GDL004-data-lovers',
+  },
+  {
+    project: 'Movie Challenge',
+    imge: MovieChallenge,
+    date: 'Laboratoria -2020-05',
+    description: 'Since DC comics exist, the question arises, which one is the best? Batman or Superman Our web application is aimed at DC fans who want to remember the best movies of each character, as well as search for movies in general.',
+    technologies: ' React, Firebase, Firebase Hosting, JavaScript, Bootstrap, Css',
+    linkGitHub: 'https://github.com/KARENLABO/GDL004-movie-challenge',
+    linkDeploy: 'https://movie-challenge-9f174.web.app/',
+  }
+
+]
+
 
 function ControlledCarousel() {
-    const [index, setIndex] = useState(0);
-  
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
-    };
-    return (
-      <Carousel ClassName='CarouselBanner'activeIndex={index} onSelect={handleSelect}>
-        <Carousel.Item >
-          <img
-            className="ImgBanner"
-            src={LabNotes}
-            alt="Third slide"
-          />   
-            <Carousel.Caption >
-                <h1 className="BannerLetters">
-                    Lab Notes
-                </h1>
-                <p className="BannerLettersP">The place to write your best ideas</p>
-                            
-            </Carousel.Caption>
-        </Carousel.Item>
+  return (
+    <CardDeck className='ContainerCards'>
+      <CardColumns>
+        {Projects.map(card => (
+          <div key={card.project}>
+            <Cards Project={card} />
+          </div>
+        ))}
+      </CardColumns>
 
-        <Carousel.Item>
-          <img
-            className="ImgBanner"
-            src= {Cipher}
-            alt="First slide"
-          />
-            <Carousel.Caption >
-                <h1 className="BannerLetters" >
-                Chipher
-                </h1>
-                <p className="BannerLettersP">If you can think it you can make it</p>
-            </Carousel.Caption>
-        </Carousel.Item>
+    </CardDeck>
+  )
+}
 
-        <Carousel.Item>
-          <img
-            className="ImgBanner"
-            src={DataLovers}
-            alt="Second slide"
-          />
-            <Carousel.Caption >
-                <h1 className="BannerLetters">
-                Data Lovers
-                </h1>
-                <p className="BannerLettersP">Be Magic, write Magic</p>
-            </Carousel.Caption>
-        </Carousel.Item>
-
-        <Carousel.Item>
-          <img
-            className="ImgBanner"
-            src= {MovieChallenge}
-            alt="First slide"
-          />
-            <Carousel.Caption >
-                <h1 className="BannerLetters" >
-                Movie Challenge
-                </h1>
-                <p className="BannerLettersP">If you can think it you can make it</p>
-            </Carousel.Caption>
-        </Carousel.Item>
-
-      </Carousel>
-    );
-  }
-  
-
-  export default ControlledCarousel
+export default ControlledCarousel
