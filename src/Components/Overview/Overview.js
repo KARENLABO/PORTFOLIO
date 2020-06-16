@@ -1,5 +1,6 @@
 import React from 'react';
 import MiniNavBar from '../MiniNavBar/MiniNavBar';
+import MiniNavBar2 from '../MiniNavBar/MinibarwithBoostrap';
 import Contact from '../Contact/Contact';
 import OverviewPhoto from '../../img/overview photo.png'
 import './Overview.css'
@@ -10,7 +11,8 @@ function Overview({ option }) {
 
     return (
         <div>
-            <MiniNavBar opt={option} />
+            <MiniNavBar2/>
+            {/* <MiniNavBar opt={option} /> */}
             <div className='containerOverview'>
                 <div className='divProfilePhoto'>
                     <img className='profilePhoto' alt='profilePhoto' src={OverviewPhoto} />

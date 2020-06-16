@@ -1,74 +1,51 @@
-.linkOptionsNav{
-    color: #828dc2  ;
-    text-decoration:none;
-    text-shadow: 2px 2px 4px rgb(167, 163, 163);
-    text-align: center;
-    margin:0;
-}
 
-.optionMiniNavBar {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    font-family: 'Amatic SC', cursive;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    
-    
-}
-.greenBranch{
-    width: 70%;
-    text-align: center;
-}
 #text{
-    margin:0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    font-weight: bold;
 }
 
-.linkOptionsNav:hover{
-    color: rgba(236, 54, 197, 0.719);
-    font-size: 32px;
-
-}
 .imglogominiNav{
-    width: 35%;
+    width: 100px;
 }
 
+.branchLine{
+    width:50%;
+}
+.miniNavBarOpt{
+   color:#8390c1;
+}
+.miniNavBarOpt{
+    color:#8390c1;  
+}
+.miniNavBarOpt{
+    color:#8390c1;
+}
 
 .miniNavBarOptOverview {
-    color: #ae369a ;
+    color: #ae369aab ;
     margin:0;
 }
 
-
-
 .miniNavBarOptResume {
-    color: #ae369a;
-    margin:0;
+    color: #ae369aab ;
+
 }
 
 .miniNavBarOptProjects {
-    color: #ae369a;
-    margin:0;
+    color: #ae369aab ;
+   
 }
-
-
-/* en esta parte solo se acomoda el lugar de los elementos en la grilla para la parte movile*/
 
 @media screen and (max-width: 400px) {
-    .imglogominiNav{
-        width: 50px;
+    #text{
+        font-family: 'Amatic SC', cursive;
+        font-size: 30px;
+        font-weight: bold;
     }
-    
-    .optionMiniNavBar {
-        font-size: 20px;
+    .branchLine{
+        width:40%;
     }
-
-    .linkOptionsNav:hover{
-        color: rgba(236, 54, 197, 0.719);
-        font-size: 22px;
-    }
-
- 
 }
+
+

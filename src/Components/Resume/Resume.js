@@ -1,5 +1,5 @@
 import React from 'react';
-import MiniNavBar from '../MiniNavBar/MiniNavBar';
+import MiniNavBar from '../MiniNavBar/MinibarwithBoostrap';
 import './Resume.css';
 import resume from '../../pdf/resume.pdf';
 import PDFViewer from '../PDFViewer/PDFViewer'

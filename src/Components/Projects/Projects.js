@@ -1,5 +1,5 @@
 import React from 'react';
-import MiniNavBar from '../MiniNavBar/MiniNavBar';
+import MiniNavBar from '../MiniNavBar/MinibarwithBoostrap';
 
 import Banner from './Banner/Banner'
 import './Projects.css'

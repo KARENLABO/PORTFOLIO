@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom';
 import greenBranch from '../../img/RAMA VERDE2.png';
 import ImgLogoMinibar from '../../img/LOGO KAREN PEQUENO.png';
 import './MiniNavBar.css';
+import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 
 function MiniNavBar({ opt }) {
-    console.log(opt);
-
     const overviewOpt = () => {
         return (opt === 'overview') ? 'miniNavBarOptOverview' : 'miniNavBarOpt';
     }
@@ -20,34 +19,38 @@ function MiniNavBar({ opt }) {
         return (opt === 'projects') ? 'miniNavBarOptProjects' : 'miniNavBarOpt';
     }
     return (
-        <div className='optionMiniNavBar'>
-            <div className='miniNavBarOpt' id='logo'>
-                <Link className='linkOptionsNav' to='/'>
-                    <img className='imglogominiNav' src={ImgLogoMinibar} alt="green branch" />
-                </Link>
-            </div>
 
-            <div className='miniNavBarOpt' id='overview'>
-                <Link className='linkOptionsNav' to='/OverView'>
+        <Navbar expand="lg" variant="light" >
+
+            <Nav.Item className='optNav'>
+                <Nav.Link href="/">
+                    <img className='imglogominiNav' src={ImgLogoMinibar} alt="logoKaren" />
+                </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item className='optNav'>
+                <Nav.Link href="/OverView">
                     <p className={overviewOpt()} id='text'>Overview</p>
-                    <img src={greenBranch} alt="green branch" className='greenBranch' />
-                </Link>
-            </div>
+                    <img src={greenBranch} alt="green branch" className='branchLine' />
+                </Nav.Link>
+            </Nav.Item>
 
-            <div className='miniNavBarOpt' id='Contact'>
-                <Link className='linkOptionsNav' to='/Resume'>
+
+            <Nav.Item className='optNav'>
+                <Nav.Link href="/Resume">
                     <p className={resumeOpt()} id='text'>Resume</p>
-                    <img src={greenBranch} alt="green branch" className='greenBranch' />
-                </Link>
-            </div>
+                    <img src={greenBranch} alt="green branch" className='branchLine' />
+                </Nav.Link>
+            </Nav.Item>
 
-            <div className='miniNavBarOpt' id='projects'>
-                <Link className='linkOptionsNav' to='/Projects'>
+            <Nav.Item className='optNav' >
+                <Nav.Link href="/Projects">
                     <p className={projectsOpt()} id='text'>Projects </p>
-                    <img src={greenBranch} alt="green branch" className='greenBranch' />
-                </Link>
-            </div>
-        </div>
+                    <img src={greenBranch} alt="green branch" className='branchLine' />
+                </Nav.Link>
+            </Nav.Item>
+
+        </Navbar>
     );
 }
 

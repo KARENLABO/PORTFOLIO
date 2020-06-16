@@ -38,12 +38,12 @@
 .text{
     margin: 0;
     text-shadow: 2px 2px 4px rgb(167, 163, 163);
-    color: #ae369a;
+    color: #343a40;
     text-align: center;
 }
 
 .linkOptionsNav{
-    color: #ae369a;
+    color: #ae369aab;
     text-decoration:none;
 }
 
@@ -56,11 +56,9 @@
 
 
 .greenBranch{
-    width: 130%;
+    width: 80%;
 }
-.greenBranch:hover{
-    width: 128%;
-}
+
 
 @media screen and (min-width: 1800px) {
     .navHomePage{
@@ -100,7 +98,7 @@
     .text{
         margin-left: 24%;
     }
-  
+
     .greenBranch:hover{
         width: 50%;
     }

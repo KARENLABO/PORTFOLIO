@@ -5,7 +5,7 @@ import './NavBar.css';
 
 function NavBar() {
     const [option, setOption] = useState('Hola');
-    console.log(option,setOption);
+    console.log(option, setOption);
     return (
         <div className='navHomePage'>
 
@@ -19,15 +19,15 @@ function NavBar() {
 
             <div className='resumeNav' id='resumeNav'>
                 <Link className='linkOptionsNav' to='/Resume'>
-                    <p className='text'  id='text'>Resume</p>
-                    <img src={greenBranch} alt="green branch" class='greenBranch' />
+                    <p className='text' id='text'>Resume</p>
+                    <img src={greenBranch} alt="green branch" className='greenBranch' />
                 </Link>
             </div>
 
             <div className='projectsNav' id='projectsNav'>
                 <Link className='linkOptionsNav' to='/Projects'>
                     <p className='text' id='text'>Projects </p>
-                    <img src={greenBranch} alt="green branch" class='greenBranch' />
+                    <img src={greenBranch} alt="green branch" className='greenBranch' />
                 </Link>
             </div>
 
