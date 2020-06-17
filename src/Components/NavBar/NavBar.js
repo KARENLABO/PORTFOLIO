@@ -4,34 +4,33 @@ import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 function NavBar() {
-    const [option, setOption] = useState('Hola');
-    console.log(option, setOption);
+
     return (
-        <div className='navHomePage'>
+        <ul class="nav justify-content-center ">
+            <li class="nav-item">
+                <Link class="nav-link active" to='/overview'>
+                    <h3 className='textNavPrincipal'>Overview</h3>
+                    <img alt='greenBranch' className='greenBranch' src={greenBranch} />
 
-            <div className='overviewNav' id='overviewNav'>
-                <Link className='linkOptionsNav' to='/OverView'>
-                    <p className='text' id='text'>Overview</p>
-                    <img src={greenBranch} alt="green branch" className='greenBranch' />
                 </Link>
-            </div>
+            </li>
+            <li class="nav-item">
+                <Link class="nav-link active" to='/overview'>
+                    <h3 className='textNavPrincipal'>Resume</h3>
+                    <img alt='greenBranch' className='greenBranch' src={greenBranch} />
 
 
-            <div className='resumeNav' id='resumeNav'>
-                <Link className='linkOptionsNav' to='/Resume'>
-                    <p className='text' id='text'>Resume</p>
-                    <img src={greenBranch} alt="green branch" className='greenBranch' />
                 </Link>
-            </div>
+            </li>
+            <li class="nav-item">
+                <Link class="nav-link active" to='/overview'>
+                    <h3 className='textNavPrincipal'>Projects</h3>
+                    <img alt='greenBranch' className='greenBranch' src={greenBranch} />
 
-            <div className='projectsNav' id='projectsNav'>
-                <Link className='linkOptionsNav' to='/Projects'>
-                    <p className='text' id='text'>Projects </p>
-                    <img src={greenBranch} alt="green branch" className='greenBranch' />
                 </Link>
-            </div>
+            </li>
 
-        </div>
+        </ul>
     );
 }
 
