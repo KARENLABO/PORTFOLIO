@@ -11,8 +11,8 @@ function Cards({ Project }) {
 
 
     return (
-        <div >
-            <Card>
+        <div className='tilt-in-top-1'>
+            <Card className='containerCards'>
                 {/* IMAGEN DEL PROYECTO PRESENTADO */}
                 <Card.Img variant="top" src={Project.imge} />
 
@@ -27,7 +27,7 @@ function Cards({ Project }) {
                 </Card.Footer>
 
                 <Card.Body>
-                    <Card.Title>{Project.project}</Card.Title>
+                    <Card.Title className='titleProject'>{Project.project}</Card.Title>
                     <Card.Text>{Project.date}</Card.Text>
                     <Card.Text>{Project.description}</Card.Text>
                 </Card.Body>

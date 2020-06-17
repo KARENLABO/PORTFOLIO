@@ -1,6 +1,6 @@
 import React from 'react';
 import MiniNavBar from '../MiniNavBar/MinibarwithBoostrap';
-
+import Cards from './Banner/Cards'
 import Banner from './Banner/Banner'
 import './Projects.css'
 
@@ -11,7 +11,10 @@ function Projects({ option }) {
         <div className='proyectsPage'>
 
             <MiniNavBar opt={option} />
-            <Banner />
+            <div className='cardsContainer'>
+                <Banner />
+            </div>
+
         </div>
     );
 }

@@ -10,7 +10,7 @@ function MainPrimary() {
     return (
         <div className='principalHome'>
 
-            <div className='logoprincipalHome'>
+            <div className='bounce-in-top'>
                 <img alt='ProfilePhoto' className='ProfilePhoto' src={LogoGrande} />
             </div>
 

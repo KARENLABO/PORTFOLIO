@@ -21,7 +21,7 @@ function Overview({ option }) {
                 <div className='textElevatorSpeach'>
                     <br></br>
                     <div>
-                        <p className='helloelevator'>
+                        <p className='tracking-in-expand'>
                             Hello!
                         </p>
 
@@ -29,7 +29,7 @@ function Overview({ option }) {
                         <br></br>
 
                         <div className='contactinfo'>
-
+                        <br></br>
                             <h3 className='aniqestionsText'>
                                 Got any questions? Contact me at : 
                                
@@ -39,6 +39,7 @@ function Overview({ option }) {
                              <p>
                              (33 14 95 62 88)     or
                             </p>
+                            <br></br>
 
                       
 
