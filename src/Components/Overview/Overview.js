@@ -25,7 +25,7 @@ function Overview({ option }) {
                             Hello!
                         </p>
                         <p>
-                            My name is Karen Ramirez, I am 26 years old and I am currently a front-end developer, but I also studied a career in business development and innovation, so I also have a technical career in Human Resources Management.
+                            My name is Karen Ramirez, I am 26 years old and I am currently a front-end developer, but I also I have  a bachelor degree in Entrepreneurial development and innovation, and also have a technical degree in Human Resources administration.
                         </p>
 
                         <p>

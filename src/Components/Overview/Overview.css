@@ -86,7 +86,7 @@
 
 /* en esta parte solo se acomoda el lugar de los elementos en la grilla para la parte movile*/
 
-@media screen and (max-width: 400px) {
+@media  only screen and (max-width: 600px) and (max-width: 767px) {
     .containerOverview{
         grid-template-rows: .5fr .7fr  .1fr  ;
         grid-template-columns: 1fr;
@@ -100,7 +100,7 @@
     }
     
     .profilePhoto{
-        padding-top: 5%;
+        margin-top: 10%;
         width: 230px;
         align-self: center;
         justify-self: center;

@@ -37,7 +37,7 @@
    
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     #text{
         font-family: 'Amatic SC', cursive;
         font-size: 30px;

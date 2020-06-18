@@ -50,7 +50,7 @@
 
 /* configuraciones para movile */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .generalContact {
         grid-template-columns: repeat(3, .4fr);
     }

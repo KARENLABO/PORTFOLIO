@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Cards from './Cards'
 import CardColumns from 'react-bootstrap/CardColumns'
 import CardDeck from 'react-bootstrap/CardDeck'
-import Card from 'react-bootstrap/Card'
+
 
 const Projects = [
   {
