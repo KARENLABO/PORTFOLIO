@@ -15,7 +15,7 @@ function NavBar() {
                 </Link>
             </li>
             <li class="nav-item">
-                <Link class="nav-link active" to='/overview'>
+                <Link class="nav-link active" to='/resume'>
                     <h3 className='textNavPrincipal'>Resume</h3>
                     <img alt='greenBranch' className='greenBranch' src={greenBranch} />
 
@@ -23,7 +23,7 @@ function NavBar() {
                 </Link>
             </li>
             <li class="nav-item">
-                <Link class="nav-link active" to='/overview'>
+                <Link class="nav-link active" to='/projects'>
                     <h3 className='textNavPrincipal'>Projects</h3>
                     <img alt='greenBranch' className='greenBranch' src={greenBranch} />
 

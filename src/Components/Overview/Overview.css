@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 400px) {
     .containerOverview{
-        grid-template-rows: .5fr .7fr  .8fr  ;
+        grid-template-rows: .5fr .7fr  .1fr  ;
         grid-template-columns: 1fr;
         align-items: center;
         justify-items: center;

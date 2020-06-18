@@ -29,7 +29,7 @@ function Overview({ option }) {
                         </p>
 
                         <p>
-                            8 months ago I decided to enter the world of programming and discovered that this is my passion, which is why I am looking for a job opportunity as a front-end jr developer.
+                            8 months ago I decided to enter the world of programming and discovered that this is my passion, which is why I am looking for a job opportunity as a Jr. front-end developer.
                         </p>
 
                         <p>
