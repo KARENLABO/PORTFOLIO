@@ -4,3 +4,17 @@
     text-align: center;
     
 }
+
+.divIndividualCard{
+    width: 95%;
+}
+
+
+
+@media screen and (min-width: 400px) {
+    .card-columns {
+        column-count: 2;
+        
+    }
+
+}

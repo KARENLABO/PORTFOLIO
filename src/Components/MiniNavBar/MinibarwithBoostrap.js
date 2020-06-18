@@ -4,11 +4,14 @@ import ImgLogoMinibar from '../../img/LOGO KAREN PEQUENO.png';
 import greenBranch from '../../img/RAMA VERDE2.png';
 import './MinibarBoostrap.css';
 
+// className="navbar navbar-expand-lg navbar-dark bg-dark ">
 
 const Header = () => {
 
     return (
-        <nav id='navbar' className="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <nav id='navbar' className='navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
+
+
 
             <Link to="/" className="navbar-brand"  >
 

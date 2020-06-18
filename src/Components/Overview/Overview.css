@@ -5,9 +5,9 @@
     grid-template-rows: 1fr 0.2fr;
     font-family: 'Patrick Hand', cursive;
     color:#344253 ;
-   
-
+    margin-top: 125px;
 }
+
 .profilePhoto{
     align-self: center;
     justify-self: center;
@@ -95,6 +95,10 @@
         font-weight: bolder;
         
     }
+    .containerOverview{
+        margin-top: 86px;
+    }
+    
     .profilePhoto{
         padding-top: 5%;
         width: 230px;

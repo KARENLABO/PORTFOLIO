@@ -1,6 +1,6 @@
 import React from 'react';
 import MovieChallenge from '../../../img/Movie challenge project.png'
-import Cipher from '../../../img/chiper project.jpeg'
+import Gloow from '../../../img/Gloow.PNG'
 import DataLovers from '../../../img/Data lovers project.jpeg'
 import LabNotes from '../../../img/LAB NOTES PROJECT.jpeg'
 import '../Banner/Banner.css'
@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Cards from './Cards'
 import CardColumns from 'react-bootstrap/CardColumns'
 import CardDeck from 'react-bootstrap/CardDeck'
+import Card from 'react-bootstrap/Card'
 
 const Projects = [
   {
@@ -38,6 +39,17 @@ const Projects = [
     linkDeploy: 'https://movie-challenge-9f174.web.app/',
   }
 
+  ,
+  {
+    project: 'Gloow',
+    imge: Gloow,
+    date: 'Hackathon Nagarro -2020-06',
+    description: 'Since DC comics exist, the question arises, which one is the best? Batman or Superman Our web application is aimed at DC fans who want to remember the best movies of each character, as well as search for movies in general.',
+    technologies: ' React, Firebase Hosting, JavaScript, Bootstrap, Css, useContext',
+    linkGitHub: 'https://github.com/Yaidi/Gloow/tree/develop',
+    linkDeploy: 'https://gloowfashionstartup.web.app/',
+  }
+
 ]
 
 
@@ -46,7 +58,7 @@ function ControlledCarousel() {
     <CardDeck className='ContainerCards'>
       <CardColumns>
         {Projects.map(card => (
-          <div key={card.project}>
+          <div className='divIndividualCard' key={card.project}>
             <Cards Project={card} />
           </div>
         ))}

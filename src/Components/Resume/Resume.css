@@ -1,6 +1,12 @@
 .pdf{
    text-align: center;
-   padding-top: 3%;
-   padding-bottom: 3%;
+   margin-top: 170px;
+   margin-bottom: 3%;
 }
 
+@media screen and (max-width: 400px) {
+   .pdf{
+      margin-top: 120px;
+   }
+   
+}
