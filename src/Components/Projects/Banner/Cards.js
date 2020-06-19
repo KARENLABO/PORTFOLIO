@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Card from 'react-bootstrap/Card'
-import CardColumns from 'react-bootstrap/CardColumns'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import GitHub from '../../../img/githubprojects.png'
 import Web from '../../../img/web.png'

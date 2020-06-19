@@ -1,5 +1,4 @@
 
-
 .containerlinks{
     text-align: center;
     
@@ -11,7 +10,7 @@
 
 
 
-@media screen and (min-width: 500px) {
+@media only screen and (min-width: 600px){
     .card-columns {
         column-count: 2;
     }

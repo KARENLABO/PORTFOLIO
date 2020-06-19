@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import greenBranch from '../../img/RAMA VERDE2.png';
 import ImgLogoMinibar from '../../img/LOGO KAREN PEQUENO.png';
 import './MiniNavBar.css';
