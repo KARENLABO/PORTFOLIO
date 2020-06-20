@@ -1,17 +1,22 @@
 #navbar{
     text-align: center;
-    font-family: 'Amatic SC', cursive;
-   
-   
+    font-family: 'Poiret One', cursive;
+    background:#f8ecfe;
+    opacity: .95;
+    -webkit-box-shadow: 5px 6px 5px -6px rgba(133,130,133,1);
+    -moz-box-shadow: 5px 6px 5px -6px rgba(133,130,133,1);
+    box-shadow: 5px 4px 4px -6px rgba(133,130,133,1);
 }
+
+
 
 
 
 .logoNavbar{
-    width: 90px;
+    width: 80px;
 }
 .navbar-brand{
-    margin-left: 2%;
+    margin-left: 5%;
 }
 
 .collapse{
@@ -21,15 +26,18 @@ padding-right: 30vh;
 
 
 .grnBranchminiNav{
-    width: 130px;
+    width: 120px;
 }
 .txtNavbar{
-    font-size: 30px;  
-    color:#FFFF;
+    font-size: 22px;  
+   
+    color:#737373;
+    font-weight: bold;
+    margin: 0;
 }
 
 .txtNavbar:hover{
-    color:#af7bbd
+  color:#ae369a85;
 }
 .nav-item{
     padding-left: 4em;
@@ -46,10 +54,10 @@ padding-right: 30vh;
         padding-right: 4em;
     }
     .txtNavbar{
-        font-size: 40px;
+        font-size: 25px;
     }
     .grnBranchminiNav{
-        width: 140px;
+        width: 145px;
     }
     .logoNavbar{
         width: 100px;
@@ -77,8 +85,13 @@ padding-right: 30vh;
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .logoNavbar{
         width: 60px;
     }
+    .txtNavbar{
+        font-size: 16px;  
+    }
+ 
+   
 }

@@ -48,12 +48,9 @@
         
     }
     .principalHome{
-
-        background: url(../../img/bigersMoviles.png) no-repeat;
-        
-       
+        background: url(../../img/bigersMoviles.png) no-repeat;     
     }
- 
+
 
 
     .principalHome{
@@ -110,11 +107,9 @@
 
 @media  only screen and (max-width: 400px) {
         .principalHome{
-
-                background: url(../../img/backgroundMovile.png) no-repeat;
-                
+                background: url(../../img/backgroundMovile.jpg) no-repeat;
                 background-size: cover;
-            }
+        }
          
 }
 

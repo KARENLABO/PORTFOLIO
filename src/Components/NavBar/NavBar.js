@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import greenBranch from '../../img/RAMA VERDE2.png';
 import { Link } from 'react-router-dom';
 import './NavBar.css';

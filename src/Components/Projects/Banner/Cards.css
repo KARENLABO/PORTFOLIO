@@ -1,41 +1,46 @@
 .iconsLinks{
-  width: 30%;
+  width: 10%;
 }
 .containereachcard{
   margin: 0 2% 0 2%;
 }
 
 .containerCards{
-    background-color:#212529;
-    color: white;
     
-    font-size: 20px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(206, 203, 203, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(206, 203, 203, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(206, 203, 203, 0.75);
+    border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
     border: 0px solid #000000;
+    font-family: 'Patrick Hand', cursive;
+    color: #344253;
+
+    
     
 }
 
+
 .projectDate{
   font-size: 15px;
+  font-weight: bold;
   text-align: left;
+  margin: 0;
 }
 
 .projectDescription{
   font-size: 14px;
   text-align: left;
+  font-weight: bold;
 }
 
 .titleProject{
-    text-align: center;
-    color: #6f4697;
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color:#e3a5eb
     
 }
 
@@ -48,11 +53,11 @@
 
 @media screen and (min-width: 1200px) {
   .iconsLinks{
-    width: 20%;
+    width: 10%;
 }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .projectDate{
     font-size: 15px;
     text-align: left;
@@ -65,7 +70,7 @@
   
 
   .iconsLinks{
-    width: 30%;
+    width: 10%;
   }
 
   .tilt-in-top-1 {

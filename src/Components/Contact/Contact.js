@@ -9,7 +9,7 @@ function Contact() {
     return (
         <div className='generalContact'>
 
-            <a target="_blank" rel='noopener' href='https://www.linkedin.com/in/akarenramirez/' className='linkedindiv'>
+            <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/akarenramirez/' className='linkedindiv'>
                 <div className='LinkedInIcon'>
                     <img src={LinkedIn} className="linkedinIcon" alt="LinkedInLogo" />
                 </div>

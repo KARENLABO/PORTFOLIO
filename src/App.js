@@ -5,9 +5,10 @@ import OverView from './Components/Overview/Overview';
 import Resume from './Components/Resume/Resume';
 import Projects from './Components/Projects/Projects';
 
+
 function App() {
     return (
-        <Router>
+        <Router >
             <Switch>
                 <Route path='/' exact component={MainPrimary} />
                 <Route path='/OverView' component={() => <OverView option={'overview'} />} />

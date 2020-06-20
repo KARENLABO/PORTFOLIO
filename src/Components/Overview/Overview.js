@@ -1,7 +1,7 @@
 import React from 'react';
 import MiniNavBar2 from '../MiniNavBar/MinibarwithBoostrap';
 import Contact from '../Contact/Contact';
-import OverviewPhoto from '../../img/overview photo.png'
+import OverviewPhoto from '../../img/overview photo.jpg'
 import './Overview.css'
 
 

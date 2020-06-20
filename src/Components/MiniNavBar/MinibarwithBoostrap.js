@@ -9,7 +9,8 @@ import './MinibarBoostrap.css';
 const Header = () => {
 
     return (
-        <nav id='navbar' className='navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
+        <nav id='navbar' className='navbar navbar-light  navbar-expand-lg  fixed-top' >
+
 
 
 
@@ -22,7 +23,7 @@ const Header = () => {
                 />
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
+                <span id='togglerNavbar' className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse  " id="navbarText">
                 <ul className="navbar-nav ml-auto">

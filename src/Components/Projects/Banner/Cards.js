@@ -1,8 +1,8 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import GitHub from '../../../img/githubprojects.png'
-import Web from '../../../img/web.png'
+import GitHub from '../../../img/GBprojects.png'
+import Web from '../../../img/link.png'
 import './Cards.css'
 
 
@@ -25,11 +25,16 @@ function Cards({ Project }) {
                     </Card.Link>
                 </Card.Footer>
 
+
                 <Card.Body>
                     <Card.Title className='titleProject'>{Project.project}</Card.Title>
+
                     <Card.Text className='projectDate'>{Project.date}</Card.Text>
+
                     <Card.Text className='projectDescription'>{Project.technologies}</Card.Text>
                 </Card.Body>
+
+
             </Card>
 
         </div>
