@@ -6,7 +6,6 @@ import LabNotes from '../../../img/LAB NOTES PROJECT.jpeg'
 import '../Banner/Banner.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Cards from './Cards'
-import CardColumns from 'react-bootstrap/CardColumns'
 import CardDeck from 'react-bootstrap/CardDeck'
 
 
