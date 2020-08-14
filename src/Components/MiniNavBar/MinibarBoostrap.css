@@ -1,7 +1,7 @@
 #navbar{
     text-align: center;
     font-family: 'Poiret One', cursive;
-    background:#f8ecfe;
+  
     opacity: .95;
     -webkit-box-shadow: 5px 6px 5px -6px rgba(133,130,133,1);
     -moz-box-shadow: 5px 6px 5px -6px rgba(133,130,133,1);
@@ -10,13 +10,17 @@
 
 
 
+.bgcolor{
+    background-color: #835dcd;
 
+}
 
 .logoNavbar{
     width: 80px;
 }
 .navbar-brand{
     margin-left: 5%;
+    
 }
 
 .collapse{
@@ -28,10 +32,9 @@ padding-right: 30vh;
 .grnBranchminiNav{
     width: 120px;
 }
+
 .txtNavbar{
     font-size: 22px;  
-   
-    color:#737373;
     font-weight: bold;
     margin: 0;
 }

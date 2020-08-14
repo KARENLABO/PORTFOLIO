@@ -14,7 +14,7 @@
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
     border: 0px solid #000000;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Bellota', cursive;
     color: #344253;
 }
 
@@ -22,15 +22,27 @@
 .projectDate{
   font-size: 16px;
   text-align: left;
-  margin: 0;
 }
 
 .projectDescription{
+  margin-bottom: 0;
   font-size: 18px;
   text-align: left;
   font-weight: 500;
   color:#ae59b9
-    
+}
+
+.projectDateText{
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 0cm;
+}
+
+.projectTechnologiesText{
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 0cm;
+  margin-bottom: 0cm;
 }
 
 .titleProject{
@@ -38,7 +50,7 @@
     font-weight: bold;
     text-align: center;
     font-family: 'Poiret One', cursive;
-    color:#e3a5eb
+    color:#835dcd
     
 }
 

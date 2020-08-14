@@ -9,7 +9,7 @@ import './MinibarBoostrap.css';
 const Header = () => {
 
     return (
-        <nav id='navbar' className='navbar navbar-light  navbar-expand-lg  fixed-top' >
+        <nav id='navbar' className='navbar navbar-light  navbar-expand-lg  fixed-top bgcolor' >
 
 
 
@@ -29,7 +29,7 @@ const Header = () => {
                 <ul className="navbar-nav ml-auto">
 
                     <li className="nav-item">
-                        <Link to="/overview" className="nav-link">
+                        <Link to="/overview" className="nav-link text-white">
                             <h3 className='txtNavbar'>OVERVIEW</h3>
                             <img
                                 alt="ShoppingIcon"
@@ -40,7 +40,7 @@ const Header = () => {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/resume" className="nav-link">
+                        <Link to="/resume" className="nav-link text-white">
                             <h3 className='txtNavbar' >RESUME</h3>
                             <img
                                 alt="ShoppingIcon"
@@ -53,7 +53,7 @@ const Header = () => {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/projects" className="nav-link">
+                        <Link to="/projects" className="nav-link text-white">
                             <span className="sr-only">(current)</span>
                             <h3 className='txtNavbar' >PROJECTS</h3>
                             <img

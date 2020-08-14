@@ -28,10 +28,10 @@ function Cards({ Project }) {
 
                 <Card.Body>
                     <Card.Title className='titleProject'>{Project.project}</Card.Title>
-
+                    <Card.Text className='projectDateText'>Date and Place:</Card.Text>
                     <Card.Text className='projectDate'>{Project.date}</Card.Text>
-
-                    <Card.Text className='projectDescription'>{Project.technologies}</Card.Text>
+                    <Card.Text className='projectTechnologiesText'>Technologies:</Card.Text>
+                    <Card.Text className='projectDate'>{Project.technologies}</Card.Text>
                 </Card.Body>
 
 
