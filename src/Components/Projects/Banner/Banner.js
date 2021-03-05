@@ -2,7 +2,6 @@ import React from 'react';
 import MovieChallenge from '../../../img/Movie challenge project.png'
 import LunchTyme from '../../../img/Lunch Tyme.PNG'
 import TaskManager from '../../../img/TASK MANAGER.PNG'
-import Gloow from '../../../img/Gloow.PNG'
 import DataLovers from '../../../img/Data lovers project.jpeg'
 import LabNotes from '../../../img/LAB NOTES PROJECT.jpeg'
 import '../Banner/Banner.css'

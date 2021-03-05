@@ -1,6 +1,6 @@
 
 #text{
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Dancing Script', cursive;
     font-size: 40px;
     font-weight: bold;
 }
@@ -9,9 +9,6 @@
     width: 100px;
 }
 
-.branchLine{
-    width:50%;
-}
 .miniNavBarOpt{
    color:#8390c1;
 }
@@ -39,13 +36,11 @@
 
 @media screen and (max-width: 500px) {
     #text{
-        font-family: 'Amatic SC', cursive;
+        font-family: 'Dancing Script', cursive;
         font-size: 30px;
         font-weight: bold;
     }
-    .branchLine{
-        width:40%;
-    }
+
 }
 
 
