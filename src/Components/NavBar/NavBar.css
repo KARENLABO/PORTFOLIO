@@ -1,28 +1,23 @@
 .nav{ 
     text-align: center;
-    font-family: 'Poiret One', cursive;
+    opacity: 85%;
+    padding: 1em;
+    font-family: 'Spartan', sans-serif;
+    background-color: #415164 ;
 }
 
 .textNavPrincipal{
     font-weight: bold;
-    color:#315E87;
-    font-size: 30px;
+    color:#ffff;
+    font-size: 1.5em;
     margin: 0cm;
-    
 }
-
-.greenBranch{
-    width: 160px;
-}
-
 
 
 
 .textNavPrincipal:hover {
-  color:#ae369a;
+  color:#EFC228;
 }
-
-
 
   
 
